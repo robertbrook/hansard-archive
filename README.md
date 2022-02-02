@@ -2,3 +2,4 @@
 
 
 wget -i urls.txt
+unzip \*.zip
