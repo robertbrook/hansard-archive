@@ -32,8 +32,8 @@ jobs:
       - name: cd xml
         run: cd xml; pwd
         
-      - name: wget -i ../urls.txt
-        run: wget -i ../urls.txt
+      - name: wget -i ./urls.txt
+        run: wget -i ./urls.txt
         
       - name: ls
         run: ls
