@@ -30,7 +30,7 @@ jobs:
         run: mkdir xml
 
       - name: cd xml
-        run: cd xml
+        run: cd xml; pwd
         
       - name: wget -i ../urls.txt
         run: wget -i ../urls.txt
